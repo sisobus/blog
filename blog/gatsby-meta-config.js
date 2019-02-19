@@ -1,6 +1,6 @@
 module.exports = {
   title: `SISOBUS PS BLOG`,
-  description: `Hmm...`,
+  description: `Problem Solving, Dev blog`,
   author: `sisobus`,
   introduction: `VUNO Inc. Software Engineer, Problem Solver`,
   siteUrl: `blog.sisobus.com`, // Your blog site url
@@ -25,5 +25,5 @@ module.exports = {
   share: {
     facebookAppId: '2244249489229176', // Add facebookAppId for using facebook share feature v3.2
   },
-  ga: '', // Add your google analytics tranking ID
+  ga: 'UA-42431278-1', // Add your google analytics tranking ID
 }
