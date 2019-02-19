@@ -2,7 +2,7 @@ module.exports = {
   title: `SISOBUS PS BLOG`,
   description: `Hmm...`,
   author: `sisobus`,
-  introduction: `Hmm ?`,
+  introduction: `VUNO Inc. Software Engineer, Problem Solver`,
   siteUrl: `blog.sisobus.com`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account

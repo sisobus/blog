@@ -4,6 +4,8 @@ date: 2013-09-24 04:31:00
 category: Editorials
 ---
 
+* [BOJ 3165 5](http://acmicpc.net/problem/3165)
+
 ## 문제요약
 
 $N$과 $K$가 주어졌을 때 $(1\leq{}N\leq{}10^{15},1\leq{}K\leq{}15)$, $N$보다 크면서 $5$가 적어도 $K$번 포함되는 가장 작은 수를 구하는 문제이다.
