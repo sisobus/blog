@@ -1,6 +1,4 @@
-blog/.cache/*
-blog/.vscode/*
-blog/node_modules/*
+node_modules/*
 *.swa
 *.swp
 .DS_Store
