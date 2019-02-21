@@ -57,7 +57,7 @@ Running npx nexus-prisma-generate --client ./src/generated/prisma-client --outpu
     
 **server/src/index.ts**
 
-```ts
+```typescript
 import { GraphQLServer } from 'graphql-yoga'
 import { makePrismaSchema } from 'nexus-prisma'
 import * as path from 'path'
@@ -111,7 +111,7 @@ server.start(() => console.log(`Server is running on http://localhost:4000`))
 
 **server/src/resolvers/index.ts**
 
-```ts
+```typescript
 import { AuthPayload, User } from './models'
 import { Mutation } from './Mutation'
 import { Query } from './Query'
@@ -126,7 +126,7 @@ export const resolvers = {
 
 **server/src/resolvers/Query.ts**
 
-```ts
+```typescript
 import { queryType } from 'nexus'
 import {
   me,
@@ -145,7 +145,7 @@ export const Query = queryType({
 
 **server/src/resolvers/Mutation.ts**
 
-```ts
+```typescript
 import { mutationType } from 'nexus'
 import {
   login,
@@ -162,14 +162,14 @@ export const Mutation = mutationType({
 
 **server/src/resolvers/models/index.ts**
 
-```ts
+```typescript
 export * from './AuthPayload'
 export * from './User'
 ```
 
 **server/src/resolvers/models/User.ts**
 
-```ts
+```typescript
 import { prismaObjectType } from 'nexus-prisma'
 
 export const User = prismaObjectType({
@@ -186,7 +186,7 @@ export const User = prismaObjectType({
 
 **server/src/resolvers/models/AuthPayload.ts**
 
-```ts
+```typescript
 import { objectType } from 'nexus'
 
 export const AuthPayload = objectType({
@@ -200,13 +200,13 @@ export const AuthPayload = objectType({
 
 **server/src/resolvers/mutations/index.ts**
 
-```ts
+```typescript
 export * from "./Auth"
 ```
 
 **server/src/resolvers/mutations/Auth.ts**
 
-```ts
+```typescript
 import { compare, hash } from 'bcrypt'
 import { sign } from 'jsonwebtoken'
 import { idArg, intArg, stringArg } from 'nexus'
@@ -269,13 +269,13 @@ export const deleteUser = {
 
 **server/src/resolvers/queries/index.ts**
 
-```ts
+```typescript
 export * from './User'
 ```
 
 **server/src/resolvers/queries/User.ts**
 
-```ts
+```typescript
 import { idArg, stringArg } from 'nexus'
 import { getUserId } from '../../utils'
 
@@ -321,7 +321,7 @@ $ yarn add graphql-shield
 
 **src/permissions/index.ts**
 
-```ts
+```typescript
 import { rule, shield } from 'graphql-shield'
 import { getUserId } from '../utils'
 
@@ -345,7 +345,7 @@ export const permissions = shield({
 
 **src/index.ts**
 
-```ts
+```typescript
 ...
 import { prisma } from './generated/prisma-client'
 import { permissions } from './permissions' // here
