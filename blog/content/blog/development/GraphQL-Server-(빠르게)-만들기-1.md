@@ -14,6 +14,8 @@ category: development
 
 * **GraphQL Server (빠르게) 만들기-1**
 * GraphQL Server (빠르게) 만들기-2
+* GraphQL Server (빠르게) 만들기-3
+* GraphQL Server (빠르게) 만들기-4
 
 ## GraphQL ?
 
