@@ -9,7 +9,7 @@ export const ThumbnailItem = ({ node }) => (
     <div key={node.fields.slug}>
       <h3>
         {node.frontmatter.title || node.fields.slug}<br />
-        <span style={{ fontSize: '8pt', fontWeight: '400' }}> {node.frontmatter.date}</span>
+        <span style={{ fontSize: '8pt', fontWeight: '400' }}> {node.frontmatter.date} - {node.fields.readingTime.text}</span>
       </h3>
       <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
     </div>

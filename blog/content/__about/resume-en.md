@@ -10,7 +10,7 @@ lang: 'en'
 
 I'm VUNO Inc Software Engineer, and I love problem solving, competitive programming.
 
-`#C/C++` `Javascript` `React` `Typescript` `Graphql` `redux` `Prisma`
+`C/C++` `Javascript` `React` `Typescript` `Graphql` `redux` `Prisma`
 
 </div>
 
@@ -28,13 +28,16 @@ I'm VUNO Inc Software Engineer, and I love problem solving, competitive programm
 
 ## Experience
 
+
 |            |                              |
 | :--------: | ---------------------------- |
 | **VUNO**<br>Software Engineer| Seoul, Korea<br>Jan 2017 ~ Present |
-| **Bone Age<br>CBCR System<br>Fundus AI<br>Chest PA** | Developing Web, Api Services deploying tensorflow AI Models using python flask, docker, celery, cpython, web canvas|
-| **Medical Transcription<br>Online Decoding**| Developing Web, Api Services deploying Vuno-Net (Deep learning framework based C++, CUDA) AI Models using python flask, WebAudio API |
-| **Labeling Tools** | Developing Web, Api Services creating labeled data on medical image using cornerstoneTools that provides a set of common tools needed in medical image |
-| **CornerstoneTools Contributor** | Developing core functions including filling the region of segmentation brush |
+
+
+* **Bone Age, CBCR System, Fundus AI, Chest PA**<br>Developing Web, Api Services deploying tensorflow AI Models using python flask, docker, celery, cpython, web canvas
+* **Medical Transcription, Online Decoding**<br>Developing Web, Api Services deploying Vuno-Net (Deep learning framework based C++, CUDA) AI Models using python flask, WebAudio API
+* **Labeling Tools**<br>Developing Web, Api Services creating labeled data on medical image using cornerstoneTools that provides a set of common tools needed in medical image 
+* **CornerstoneTools Contributor**<br>Developing core functions including filling the region of segmentation brush 
 
 |            |                              |
 | :--------: | ---------------------------- |
