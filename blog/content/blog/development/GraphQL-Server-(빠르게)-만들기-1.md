@@ -102,7 +102,7 @@ query {
 
 페이스북에서 단점은 따로 고지하지 않았기 때문에 나의 주관적인 생각으로 나열해보았다.
 
-1. 단일 endpoint를 사용하기에 HTTP, HTTP(S)에 의한 **캐싱**이 어렵다.<sup>[[2]]</sup>
+1. 단일 endpoint를 사용하기에 HTTP(S)에 의한 **캐싱**이 어렵다.<sup>[[2]]</sup>
 2. **러닝커브**가 높다.
 3. Javascript/Typescript 계열의 언어가 아니면 개발하기 쉽지않다.
 >원래 Python Sanic, graphene, ...을 이용해 하려했으나 직접 손봐야되는 부분이 많아서 포기함. 
