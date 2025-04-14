@@ -3,7 +3,7 @@ module.exports = {
   description: `Problem Solving, Dev blog`,
   author: `sisobus`,
   introduction: `VUNO Inc. Software Engineer, Problem Solver`,
-  siteUrl: `blog.sisobus.com`, // Your blog site url
+  siteUrl: `https://blog.sisobus.com`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
     github: `sisobus`, // Your GitHub account
